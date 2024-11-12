@@ -163,7 +163,7 @@ class python_snake: # Двигать тело змеюки в текущую с�
         else:
             return 0
 
-    def bump_body(self): # Проверка на столкновение с телом змеи
+    def bump_body(self):
         __head_x = self.body[-1]['x']
         __head_y = self.body[-1]['y']
         bump = 0
